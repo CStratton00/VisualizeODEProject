@@ -24,7 +24,7 @@ k = 1000                                    # k     = Initial Number of Packets
 xs = odeint(dx_dt, k, ts, args=(x,))        # function to find the ODE Integral of x and t
 
 # matplotlib graph displaying number of packets over time
-plt.xlabel("t")
-plt.ylabel("x")
-plt.plot(ts, xs)
-plt.show()
+plt.xlabel("t")                             # x axis label for time
+plt.ylabel("x")                             # y axis label for number of packets
+plt.plot(ts, xs)                            # plot time versus packets
+plt.show()                                  # show plot
