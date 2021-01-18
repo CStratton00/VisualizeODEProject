@@ -1,8 +1,12 @@
 # Collin Stratton
 # CST-305
-# This is my work
+# Topic 1 Project 1: Visualize ODE with SciPy
+# Dr. Ricardo Citro
 
 # For this project, I am simulating an ODE for the GCU Internet Speed
+# Packages used: numpy, matplotlib, scipy
+# Implementation approach: developed an ODE function using scypi.odeint (outlined in documentation)
+# Found internet speed and graphed results using plt.plot() from matplotlib
 
 import numpy as np                          # import numpy for array space
 import matplotlib.pyplot as plt             # import matplotlib to graph function
